@@ -56,7 +56,6 @@ class Song
  end 
  
  def self.new_from_filename
-   #EXPECTED #=> song = Song.new_from_filename("Thundercat - For Love I Come.mp3")
    song = self.create
    
  end 
