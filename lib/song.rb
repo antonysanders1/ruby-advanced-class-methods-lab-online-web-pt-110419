@@ -57,6 +57,11 @@ class Song
    self.find_by_name.sort
  end 
  
+ def self.new_from_filename
+   
+ end 
+ 
+ 
  
  def self.destroy_all
    @@all.clear
