@@ -57,7 +57,7 @@ class Song
    self.find_by_name.sort
  end 
  
- def self.new_from_filename
+ def self.new_from_filename(filename)
    song = Song.new_from_filename("Thundercat - For Love I Come.mp3")
  end 
  
