@@ -45,11 +45,8 @@ class Song
    #returns falsey when a song name is not present in @@all
    binding.pry
    @@all.detect do |song| 
-     if song.name == name
-      return song
-     else 
-       return nil 
-     end
+     song.name == name
+    
   end
    
  end 
