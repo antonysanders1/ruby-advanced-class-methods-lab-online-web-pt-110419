@@ -56,10 +56,11 @@ class Song
  end 
  
  def self.new_from_filename(name, artist_name)
-   song = self.create
+   #song = self.create
    song.name = name
    song.artist_name = artist_name
-   
+   song = "#{} - #{} .mp3"
+   song
  end 
  
 def self.create_from_filename
