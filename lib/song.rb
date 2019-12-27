@@ -60,7 +60,7 @@ class Song
    array = filename.split(" - ")
    array[1] = array[1].split(".")[0]
    #binding.pry
-   song = self.create 
+   song = self.new 
    song.name = array[1]
    song.artist_name = array[0]
    song
