@@ -43,7 +43,7 @@ class Song
  def self.find_by_name(name)
    #can find a song present in @@all by name
    #returns falsey when a song name is not present in @@all
-   binding.pry
+   #binding.pry
    @@all.detect do |song| 
      song.name == name
     
