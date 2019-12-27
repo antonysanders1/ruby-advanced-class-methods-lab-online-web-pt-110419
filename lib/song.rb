@@ -46,7 +46,6 @@ class Song
    binding.pry
    @@all.detect do |song| 
      song.name == name
-     song
      end
   end
    
