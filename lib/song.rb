@@ -66,7 +66,7 @@ class Song
    song
  end 
  
-def self.create_from_filename
+def self.create_from_filename(filename)
   array = filename.split(" - ")
    array[1] = array[1].split(".")[0]
    #binding.pry
