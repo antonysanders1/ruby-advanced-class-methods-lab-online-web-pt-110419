@@ -59,7 +59,7 @@ class Song
    song = self.create
    song.name = name
    song.artist_name = artist_name
-   song = "#{} - #{} .mp3"
+   song = "#{artist_name} - #{name}.mp3"
    song
  end 
  
