@@ -54,7 +54,7 @@ class Song
  end 
  
  def self.alphabetical
-   self.find_by_name(name).sort
+   self.find_by_name.sort
  end 
  
  
