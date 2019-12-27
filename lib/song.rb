@@ -44,11 +44,8 @@ class Song
    #can find a song present in @@all by name
    #returns falsey when a song name is not present in @@all
    #binding.pry
-   @@all.detect do |song| 
-     song.name == name
-    
-    end
-   
+   @@all.detect { |song| song.name == name}
+
  end 
  
  
