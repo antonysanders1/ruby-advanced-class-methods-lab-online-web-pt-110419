@@ -59,7 +59,7 @@ class Song
    #binding.pry
    array = filename.split(" - ")
    array[1] = array[1].split(".")[0]
-   binding.pry
+   #binding.pry
    song = self.create 
    song.name = array[1]
    song.artist_name = array[0]
