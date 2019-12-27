@@ -32,10 +32,10 @@ class Song
  def self.create_by_name(name)
    #instantiates and saves a song with a name property
    binding.pry 
-   song = self.new
+   song = self.create
    song.name = name
    song
-   @@all << song
+  
   
  end 
  
