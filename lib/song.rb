@@ -57,7 +57,8 @@ class Song
  
  def self.new_from_filename(filename)
    #binding.pry
-   
+   array = filename.split(" - ")
+   array[1] = array[1].split(".")[0]
  end 
  
 def self.create_from_filename
