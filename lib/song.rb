@@ -56,7 +56,7 @@ class Song
  end 
  
  def self.new_from_filename(name)
-   binding.pry
+   #binding.pry
    song = self.create
    song.name = name
    song.artist_name = artist_name
